@@ -1,0 +1,34 @@
+@each $key, $value in $cool-gray {
+  .text-cool-gray-#{$key} {
+    color: $value !important;
+  }
+  .bg-cool-gray-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in $indigo {
+  .text-indigo-#{$key} {
+    color: $value !important;
+  }
+  .bg-indigo-#{$key} {
+    background-color: $value;
+  }
+}
+
+@each $key, $value in $red {
+  .text-red-#{$key} {
+    color: $value !important;
+  }
+  .bg-red-#{$key} {
+    background-color: $value;
+  }
+}
+
+.text-white {
+  color: $white-color !important;
+}
+
+.text-red, .text-expired, .required {
+  color: $red-main !important;
+}

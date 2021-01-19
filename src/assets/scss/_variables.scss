@@ -1,0 +1,62 @@
+$cool-gray: (
+  100: #F5F7FA,
+  200: #E4E7EB,
+  300: #CBD2D9,
+  400: #9AA5B1,
+  500: #7B8794,
+  600: #616E7C,
+  700: #52606D,
+  800: #3E4C59,
+  900: #323F4B,
+  1000: #1F2933
+);
+
+$indigo: (
+  100: #E0E8F9,
+  200: #BED0F7,
+  300: #98AEEB,
+  400: #7B93DB,
+  500: #647ACB,
+  600: #4C63B6,
+  700: #4055A8,
+  800: #35469C,
+  900: #2D3A8C,
+  1000: #19216C
+);
+
+$red: (
+  100: #FFE3E3,
+  200: #FFBDBD,
+  300: #FF9B9B,
+  400: #F86A6A,
+  500: #EF4E4E,
+  600: #E12D39,
+  700: #CF1124,
+  800: #AB091E,
+  900: #8A041A,
+  1000: #610316
+);
+
+$input-background: #fbfbfb;
+
+$white-color: #ffffff;
+$color-light-gray: map-get($map: $cool-gray, $key: 200);
+$text-color-base: map-get($map: $cool-gray, $key: 900);
+
+$indigo-darkest: map-get($map: $indigo, $key: 1000);
+$indigo-dark: map-get($map: $indigo, $key: 800);
+$indigo-main: map-get($map: $indigo, $key: 500);
+$indigo-light: map-get($map: $indigo, $key: 200);
+$indigo-lightest: map-get($map: $indigo, $key: 100);
+
+$gray-darkest: map-get($map: $cool-gray, $key: 900);
+$gray-dark: map-get($map: $cool-gray, $key: 800);
+$gray-main: map-get($map: $cool-gray, $key: 500);
+$gray-light: map-get($map: $cool-gray, $key: 200);
+$gray-lightest: map-get($map: $cool-gray, $key: 100);
+
+$red-darkest: map-get($map: $red, $key: 900);
+$red-dark: map-get($map: $red, $key: 800);
+$red-main: map-get($map: $red, $key: 500);
+$red-light: map-get($map: $red, $key: 200);
+$red-lightest: map-get($map: $red, $key: 100);
